@@ -228,3 +228,17 @@ a {
     width: 100%;
   }
 }
+.contents_row {
+  background-color: bisque;
+  height: 100vh;
+  display: flex;
+}
+.logo_t {
+  position: absolute;
+  left: 550px;
+}
+
+.logo_y{
+  height: 300px;
+  width: 300px;
+}
