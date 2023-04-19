@@ -11,6 +11,9 @@
 
   <body>
     <header class="header">
+    <div class= "image_r">
+        <%= image_tag "restaurant.jpg", class: :image_restaurant %>
+    </div>
       <div class="inner">
         <div class="nav">
           <div class="nav__left">
@@ -32,9 +35,6 @@
       </div>
     </header>
     <%= yield %>
-    <footer class="footer">
-      <p class="copyright">Copyright © GOURMET LOG All rights reserved.</p>
-    </footer>
   </body>
   </body>
 </html>

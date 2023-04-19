@@ -1,20 +1,11 @@
 <main class="main">
-  <div class="inner">
-    <%# ログインしているときは以下を表示する %>
-      <%# <div class="greeting"> %>
-        <%# こんにちは、 %>
-        <%# <%= link_to "ユーザー名さん", root_path, class: :greeting__link%>
-      <%# </div> %>
-    <%# // ログインしているときは上記を表示する %>
-    <div class="card__wrapper">
-      <div class="card">登録店一覧
-        <div class="card__body">
-          <%= link_to "店名", root_path, class: :card__title%>
-          <p class="card__summary">
-            <%= "ジャンル" %>
-          </p>
-        </div>
-      </div>
+  <div class="card">登録店一覧</div>
+  <div class= "block">
+    <div class="card__body">
+      <%= link_to "店名", root_path, class: :card__title%>
+        <p class="card__summary">
+          <%= "ジャンル" %>
+        </p>
     </div>
   </div>
 </main>
