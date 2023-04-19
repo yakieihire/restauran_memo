@@ -1,10 +1,10 @@
 class ShopsController < ApplicationController
   def index
-    @shops = Shops.all
+    # @shops = Shops.all
   end
 
   def new
-    @shops = Shops.find(params)
+    @shop = Shop.new
   end
 
   def delete
