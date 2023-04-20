@@ -1,18 +1,24 @@
 class ShopsController < ApplicationController
   def index
-    # @shops = Shops.all
+    @shops = Shop.order('created_at DESC')
   end
 
   def new
-    @shop = Shop.new
+    @Shop = Shop.new
   end
 
-  def delete
+  def create
+    @shop = Shop.new(shop_params)
+    if @shop.save
+      redirect_to root_path
+    else
+      render :new
+    end
   end
 
   private
   def shop_params
-    params.require(:shops).permit(:name, :image, :text).merge(user_id: current_user.id)
+    params.permit(:image, :store_name, :category_id, :menu, :place, :store_url, :memo, :interesting_store_id).merge(user_id: current_user.id)
   end
 
 end

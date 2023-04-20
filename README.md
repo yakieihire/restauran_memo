@@ -20,7 +20,6 @@
 | category_id          | integer    | null:false                    | 
 | menu                 | string     | null:false                    | 
 | place                | string     | null:false                    | 
-| price                | integer    | null:false                    | 
 | store_url            | text       | null:false                    | 
 | memo                 | text       | null:false                    | 
 | interesting_store_id | integer    | null:false                    | 
