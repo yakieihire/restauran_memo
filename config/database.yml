@@ -8,7 +8,7 @@ development:
   username: root
   password:
   host: localhost
-  database: restauran_memo_development
+  database: Gourmet_log_development
 
 test:
   <<: *default
@@ -16,7 +16,7 @@ test:
   username: root
   password:
   host: localhost
-  database: restauran_memo_test
+  database: Gourmet_log_test
 
 production:
   <<: *default
