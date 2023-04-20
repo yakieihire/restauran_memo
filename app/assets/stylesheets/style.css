@@ -175,103 +175,48 @@ a {
 }
 
 .logo_y{
-  height: 300px;
-  width: 300px;
-}
-
-/* 商品一覧 */
-
-.item-contents {
-  background-color: #FFF;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding: 10vh 0;
-}
-
-.item-contents>.title {
-  font-size: 5vh;
-  line-height: 1.4;
-  font-weight: bold;
-}
-
-.item-contents>.subtitle {
-  font-size: 3vh;
-  margin: 1vh 0;
-  text-decoration: none;
-  color: #3ccace;
-  font-weight: bold;
-}
-
-.item-lists {
-  width: 100vw;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-}
-
-.item-lists>.list {
-  width: 37vh;
-  padding: 1vw;
-  background-color: #FFF;
-}
-
-
-.item-img-content {
+  height: 250px;
+  width: 250px;
   position: relative;
+  bottom: 50px;
+  left: 30px;
 }
-
-.item-img {
-  width: 33vh;
-  height: 33vh;
+.shop-show {
+  display: flex;
 }
-
-.sold-out {
+.image_restaurant_g {
+  width: 1024vw;
+  opacity: 30%;
+}
+.shop-box {
+  background-color: white;
+  width: 90vw;
+  height: 90vh;
   position: absolute;
-  top: 40%;
-  width: 100%;
-  text-align: center;
-  background-color: crimson;
-  transform: skewY(-10deg);
+  top: 100px;
+  left: 70px;
 }
-
-.sold-out>span {
-  color: #FFF;
-  font-size: 45px;
-  font: bold;
+.shop-box-img {
+  width: 30vw;
+  height: 40vh;
+  position: relative;
+  left: 55vw;
+  top: 15vh;
 }
-
-
-.item-info {
-  background-color: #FFF;
-  color: black;
-  padding: 1vw;
+.detail-table {
+  position: relative;
+  bottom: 200px;
+  left: 60px;
+  font-weight: 800;
+  font-size: 1.3em;
+  padding: 50px 0;
 }
-
-.item-name {
-  font-size: 2.5vh;
+.detail-item {
+  padding: 15px;
 }
-
-.item-price {
-  font-size: 1.5vh;
-  display: flex;
-  justify-content: space-between;
+.logo_a {
+  height: 200px;
+  width: 200px;
+  position: relative;
+  bottom: 45vh;
 }
-
-
-.star-btn {
-  display: flex;
-  align-items: center;
-}
-
-.star-icon {
-  height: 2vh;
-  width: 2vh;
-  margin-right: 0.5vw;
-}
-
-.star-count {
-  font-size: 2vh;
-}
-
-/* //商品一覧 */
