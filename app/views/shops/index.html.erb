@@ -39,7 +39,7 @@
             <%= image_tag shop.image.variant(resize: '200x250'), class: "shop-img" if shop.image.attached?  %>
           </div>
             <div class="card__body">
-              <%= link_to shop.store_name, root_path, class: :card__title%>
+              <%= link_to shop.store_name, shop_path(shop.id), class: :card__title%>
               <p class="card__summary">
                 <%= shop.category.name %>
               </p>
