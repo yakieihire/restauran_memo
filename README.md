@@ -19,6 +19,8 @@
 | store_name           | string     | null:false                    | 
 | category_id          | integer    | null:false                    | 
 | menu                 | string     | null:false                    | 
+| place                | string     | null:false                    | 
+| store_url            | text       | null:false                    | 
 | memo                 | text       | null:false                    | 
 | interesting_store_id | integer    | null:false                    | 
 | user                 | references | null:false, foreign_key: true | 
